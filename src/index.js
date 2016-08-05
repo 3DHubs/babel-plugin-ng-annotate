@@ -5,7 +5,7 @@ export default function ({ types: t }) {
         if (!path.node.decorators) {
           return;
         }
-        const inject = path.node.decorators.find(decorator => decorator.expression.callee.name === 'Inject');
+        const inject = path.node.decorators.find(decorator => decorator.expression.callee.name === 'inject');
 
         if (!inject) {
           return;

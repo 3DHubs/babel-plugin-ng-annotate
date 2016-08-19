@@ -1,5 +1,5 @@
 
-@Inject('$exService')
+@inject('$exService')
 export class ExampleController {
 
   constructor() {

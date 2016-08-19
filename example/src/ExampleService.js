@@ -1,4 +1,4 @@
-@Inject('$http')
+@inject('$http')
 class ExampleService {
 
   getData() {

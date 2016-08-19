@@ -22,7 +22,7 @@ Note: this library depends on the [syntax decorators](https://www.npmjs.com/pack
 ## How to use
 
 ```js
-@Inject('service1', 'service2', 'service3')
+@inject('service1', 'service2', 'service3')
 class MyController {
 
     constructor() {
